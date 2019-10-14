@@ -1,0 +1,5 @@
+amazon:
+  access:
+    key: <Acces Key amazon>
+    secret-key: <Secret key amazon>
+  region:<region>
