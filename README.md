@@ -1,5 +1,9 @@
 # Mutant
-Detector de Mutantes
+Detector de Mutantes:
+Aplicaion api rest donde recibe como parámetro, una secuencia del ADN (A,T,C,G), las
+cuales representa cada base nitrogenada. 
+
+Es considerado mutante si hay una secuencia de 4 letras repetidas en el ADN. 
 
 ### Prerequisitos
 - Cuenta en Amanzon Webservices
@@ -11,7 +15,7 @@ Detector de Mutantes
 Programas               | Version
 :-----------------------|:----------
  Spring Boot            |2.0.4.
- Java   	              |1.8
+ Java   	               |1.8
  Maven                  |3.6.1
  DynamoDB               |1.11.408
  JUnit                  |4.12
@@ -22,7 +26,7 @@ Programas                | Descripción
 :-----------------------|:----------
  Insomnia               |Cliente Rest
  Amazon Webservices     |Cloud Amazon para subir la app Rest
- JUnit 					        |Test Unitarios
+ JUnit 					            |Test Unitarios
  JMeter                 |Realizar pruebas de stress
 
 ### Entorno AWS DYNAMO:
@@ -58,3 +62,30 @@ Luego ejecutar la aplicación:
 ```bash
 mvn spring-boot:run
 ```
+
+### Ejecución en entorno remoto AWS:
+
+Actualmente se encuentra instalada en Amazon Web Services  el detector mutante:
+
+Adjuntos URL:
+
+URL                | Descripción    | Metodo
+:-----------------------|:----------|:-----------
+http://mutant-0805.sa-east-1.elasticbeanstalk.com/status |Verifica si la el api esta funcionando | GET
+http://mutant-0805.sa-east-1.elasticbeanstalk.com/mutan  |Verifica el ADN y detecta si es mutante | POST
+http://mutant-0805.sa-east-1.elasticbeanstalk.com/stats  |Muestra las estadisticas de mutantes y humanos| GET
+
+
+
+***Detentando mutantes***
+
+Para detectar mutantes es necesario enviar al servicio /mutan un json con las siguientes caracteristicas:
+```bash
+{
+ "dna":["AAATGC","CCGGAC","TTACAT","AGAAGG","CCCCTA","TCACTG"]
+}
+```
+
+
+
+
