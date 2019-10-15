@@ -82,10 +82,10 @@ http://mutant-0805.sa-east-1.elasticbeanstalk.com/stats  |Muestra las estadistic
 Para detectar mutantes es necesario enviar al servicio /mutan un json con las siguientes caracteristicas:
 ```bash
 {
- "dna":["AAATGC","CCGGAC","TTACAT","AGAAGG","CCCCTA","TCACTG"]
+ "dna":["AATTGC","CCGTAC","TTTCAT","AGAAAG","CCACTA","TCACTG"]
 }
 ```
-
+![](https://user-images.githubusercontent.com/15696325/66798601-f0b72780-eee4-11e9-816e-6030371c5ef2.png)
 
 ***Consultando Estadisticas***
 
