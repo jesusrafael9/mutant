@@ -102,3 +102,10 @@ http://mutant-0805.sa-east-1.elasticbeanstalk.com/stats
 
 ### Pruebas Jmetter: 
 
+
+### Enlaces relacionados:
+
+- http://jmeter.apache.org
+- https://insomnia.rest/
+- https://aws.amazon.com/es/elasticbeanstalk/
+- https://aws.amazon.com/es/dynamodb/
