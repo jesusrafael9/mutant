@@ -93,8 +93,7 @@ Para ver el conteo de humanos y mutantes consultar el siguiente servicio stats
 
 http://mutant-0805.sa-east-1.elasticbeanstalk.com/stats
 
-
-
+![](https://user-images.githubusercontent.com/15696325/66798282-dc265f80-eee3-11e9-9e51-045bcdc52cbc.png)
 
 
 ### Test Unitarios:
