@@ -18,7 +18,8 @@ public class Dna{
 		this.dna = dna;
 	} 
 	
-	public String generateId(){  
+	public String generateId(){
+		//TODO Mejorar el metodo de explotacion de id se puede utilizar sha256
 		return Base64.getEncoder().encodeToString(dna.toString().replaceAll("[^ATCG]", "").getBytes()).toString();
 	}
 	
