@@ -37,7 +37,7 @@ Programas                | Descripción
 - Ir a la seccion de servicios->DynamoDB
 - luego, seleccionar la opcion de crear tabla.
  
-Es necesario que la tabla se llame: human con Clave de partición principal como id.	
+***Es necesario que la tabla se llame: human con Clave de partición principal como id.***	
 
 
 ### Ejecución en entorno local
