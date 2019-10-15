@@ -100,7 +100,7 @@ http://mutant-0805.sa-east-1.elasticbeanstalk.com/stats
 
 ![](https://user-images.githubusercontent.com/15696325/66794824-26eeaa00-eed9-11e9-8670-fa3514244739.png)
 
-### Pruebas Jmetter: 
+### Pruebas JMeter: 
 
 Prueba 1000 usuarios:
 
