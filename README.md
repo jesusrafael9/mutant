@@ -1,7 +1,7 @@
 # Mutant
 Detector de Mutantes:
-Aplicaion api rest donde recibe como parámetro, una secuencia del ADN (A,T,C,G), las
-cuales representa cada base nitrogenada. 
+Es una aplicacion rest donde recibe como parámetro, una secuencia del ADN (A,T,C,G), la
+cual representa cada base nitrogenada. 
 
 Es considerado mutante si hay una secuencia de 4 letras repetidas en el ADN. 
 
@@ -85,11 +85,16 @@ Para detectar mutantes es necesario enviar al servicio /mutan un json con las si
  "dna":["AAATGC","CCGGAC","TTACAT","AGAAGG","CCCCTA","TCACTG"]
 }
 ```
+
+
 ***Consultando Estadisticas***
 
 Para ver el conteo de humanos y mutantes consultar el siguiente servicio stats
 
 http://mutant-0805.sa-east-1.elasticbeanstalk.com/stats
+
+
+
 
 
 ### Test Unitarios:
