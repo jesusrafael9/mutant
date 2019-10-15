@@ -102,6 +102,10 @@ http://mutant-0805.sa-east-1.elasticbeanstalk.com/stats
 
 ### Pruebas Jmetter: 
 
+![]("https://user-images.githubusercontent.com/15696325/66797701-13940c80-eee2-11e9-90b8-a14edb8bc72f.png)
+
+
+
 
 ### Enlaces relacionados:
 
