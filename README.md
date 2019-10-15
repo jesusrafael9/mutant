@@ -5,7 +5,7 @@ cuales representa cada base nitrogenada.
 
 Es considerado mutante si hay una secuencia de 4 letras repetidas en el ADN. 
 
-### Prerequisitos
+### Pre-Requisitos
 - Cuenta en Amanzon Webservices
 - Usuario aws configurado con permisos de acceso.
 - Base de datos DynamoDB. 
@@ -77,7 +77,7 @@ http://mutant-0805.sa-east-1.elasticbeanstalk.com/stats  |Muestra las estadistic
 
 
 
-***Detentando mutantes***
+***Detectando mutantes***
 
 Para detectar mutantes es necesario enviar al servicio /mutan un json con las siguientes caracteristicas:
 ```bash
