@@ -86,15 +86,18 @@ Para detectar mutantes es necesario enviar al servicio /mutan un json con las si
 }
 ```
 ***Consultando Estadisticas***
+
 Para ver el conteo de humanos y mutantes consultar el siguiente servicio stats
 
 http://mutant-0805.sa-east-1.elasticbeanstalk.com/stats
 
 
 ### Test Unitarios:
+
 ![](https://user-images.githubusercontent.com/15696325/66794980-94023f80-eed9-11e9-97b0-1ac6e7a58ae8.png)
 
 ### Coverage:
+
 ![](https://user-images.githubusercontent.com/15696325/66794824-26eeaa00-eed9-11e9-8670-fa3514244739.png)
 
 ### Pruebas Jmetter: 
