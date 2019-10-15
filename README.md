@@ -72,7 +72,7 @@ Adjuntos URL:
 URL                | Descripción    | Metodo
 :-----------------------|:----------|:-----------
 http://mutant-0805.sa-east-1.elasticbeanstalk.com/status |Verifica si la el api esta funcionando | GET
-http://mutant-0805.sa-east-1.elasticbeanstalk.com/mutan  |Verifica el ADN y detecta si es mutante | POST
+http://mutant-0805.sa-east-1.elasticbeanstalk.com/mutant  |Verifica el ADN y detecta si es mutante | POST
 http://mutant-0805.sa-east-1.elasticbeanstalk.com/stats  |Muestra las estadisticas de mutantes y humanos| GET
 
 
@@ -85,7 +85,18 @@ Para detectar mutantes es necesario enviar al servicio /mutan un json con las si
  "dna":["AAATGC","CCGGAC","TTACAT","AGAAGG","CCCCTA","TCACTG"]
 }
 ```
+***Consultando Estadisticas***
+Para ver el conteo de humanos y mutantes consultar el siguiente servicio stats
+
+http://mutant-0805.sa-east-1.elasticbeanstalk.com/stats
+
+
+### Test Unitarios:
+
+
+### Coverage:
 
 
 
+### Pruebas Jmetter: 
 
